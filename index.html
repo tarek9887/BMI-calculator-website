@@ -9,25 +9,25 @@
       <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">  
 
 </head>
-<body class="bg-cover flex flex-col justify-center items-center h-screen w-full">
+<body class="flex flex-col justify-center items-center h-screen w-full">
 
       <!-- Body SEction ADDING-->
 
-            <div class="h-[400px] gap-2 shadow-2xl w-[800px] flex flex-col justify-center items-center">
+            <div class="h-[500px] gap-2 shadow-2xl w-[800px] flex flex-col justify-center items-center">
                   <h1 class="text-5xl  mt-[-70px] mb-4">BMI calculator</h1>
                   <p class="text-lg">please enter your height</p>
-                  <input id="bill" class="text-lg  text-black rounded-lg w-[350px] p-1" type="number">
+                  <input id="height" placeholder="enter your height in (cm)" class="text-lg  text-black rounded-lg w-[350px] p-1" type="number">
                   <p class="text-lg">please enter your weight</p>
-                  <input id="vat" class="text-lg mt-[-8px] text-black rounded-lg w-[350px] p-1" type="number">
-                  <button id="calculate" class="text-lg mt-[20px] p-1.5 w-[110px] rounded-xl bg-yellow-500 cursor-pointer shadow-2xl hover:w-[100px] hover:bg-yellow-600">Calculate</button>
-                  <input disabled class="text-lg text-black rounded-lg w-[350px] p-1" type="number" name="" id="">
-                  <label class="text-2xl text-gray-200 mt-6 ml-[-150px]" for="total"> Your physical condition is :  <span id="total"></span> </label> 
+                  <input id="weight" placeholder="enter your weight in (kg)" class="text-lg mt-[-8px] text-black rounded-lg w-[350px] p-1" type="number">
+                  <button id="btn" class="text-lg mt-[20px] p-1.5 w-[110px] rounded-xl bg-yellow-500 cursor-pointer shadow-2xl hover:w-[100px] hover:bg-yellow-600">Calculate</button>
+                  <input disabled class="text-lg text-black rounded-lg w-[350px] p-1" type="number" name="" id="bmi-result">
+                  <label class="text-2xl text-gray-200 mt-6 ml-[-150px]" for="total"> Your physical condition is :  <span id="weight-condition"></span> </label> 
             </div>
 
-
+ 
       <!-- JAVA SCRIP ADDING -->
 
-            <script src="index.js"></script>
+           <script src="index.js"></script>
 
 </body>
 </html>
